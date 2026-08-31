@@ -4,11 +4,11 @@
 
 **Versión documental:** 0.1.0 Draft  
 **Estado:** Draft (no Official · no publicación constitucional 1.0.0)  
-**Licencia:** (Por definir)  
+**Licencia:** MIT (alcance CODE_ONLY; no cubre Constitución, BOOK, DOCX, CDR, `.cursor` ni documentación histórica)  
 **Autor:** Pablo Guzmán Sánchez  
 **Proyecto:** Web3 Trust-Native  
 
-**Nota de autoridad (CDR-001 / CDR-005):** este README es entrada al repositorio. La autoridad normativa reside en `constitution/` (L0: `constitution/L0/BOOK.md`, migración `human-reviewed`; Draft `0.1.0`; no Official; no Published). `CONSTITUTION.md` es resumen de entrada; `STANDARD.md` es gobernanza subordinada. **Git local (L3-RELEASE2):** existe `.git`; sin remote; sin commits; sin push; sin GitHub.
+**Nota de autoridad (CDR-001 / CDR-005):** este README es entrada al repositorio. La autoridad normativa reside en `constitution/` (L0: `constitution/L0/BOOK.md`, migración `human-reviewed`; Draft `0.1.0`; no Official; no Published). `CONSTITUTION.md` es resumen de entrada; `STANDARD.md` es gobernanza subordinada. **Git (estado operativo):** repositorio presente; remote `https://github.com/jpgsChile/web3-trust-native`; rama `master`; snapshot GitHub presente. Git preserva; no es autoridad constitucional ni Official/Published. *(Histórico L3-RELEASE2: `.git` local sin remote, sin commits, sin GitHub.)*
 
 
 
@@ -216,8 +216,8 @@ Declarados en planificación o documentación histórica; **no** existen como ca
 - `VERSION.md`, `CHANGELOG.md`, `MANIFEST.md`, `INDEX.md`, `GLOSSARY.md`, `AI_RULES.md`
 - `ontology/`, `knowledge/`, `schemas/`, `examples/`, `prompts/`
 - `ai/`, `compiler/`, `conformance/`, `guides/`, `profiles/`, `whitepapers/`
-- `releases/`, tags, remote GitHub (no configurados; no push)
-- `.git` existe **localmente** (L3-RELEASE2); sin commits; sin remote
+- `releases/`, tags GitHub (no creados; no constituyen Official ni Published)
+- Git: presente; remote y snapshot GitHub configurados (rama `master`). Histórico L3-RELEASE2: `.git` local sin commits ni remote.
 
 Las capas futuras pueden documentarse solo como **reservadas / no materializadas**; no constituyen arquitectura existente.
 
@@ -369,7 +369,7 @@ Migración observada en manifests / filesystem (no es Official ni Published de e
 - L3: `official` (cierre de migración del Libro; L3-PROM1) · Draft `0.1.0` · no Official de ecosistema · no Published · no L3-COMPLETE
 - L3-DA, L4–L8: cuerpo normativo en `original/*.docx`; `BOOK.md` stub; campo `source.migration` ausente
 
-Licencia: (Por definir). La ausencia de `LICENSE` bloquea el push público final hasta decisión humana.
+Licencia: MIT (CODE_ONLY; titular Pablo Guzmán Sánchez, 2026). El archivo `LICENSE` está presente. MIT no cubre Constitución, BOOK, DOCX, CDR, `.cursor` ni documentación histórica.
 
 Las futuras versiones podrán incorporar nuevos Libros, artículos, ontologías, capacidades y mecanismos de materialización **cuando se materialicen**, preservando la continuidad constitucional y la compatibilidad.
 

@@ -70,15 +70,14 @@ Conflicto STANDARD vs Constitución → gana la **Constitución** (Libros).
 | Aplicación / UX | Subdominio / forma de **Materialización** — **no** título de L7 |
 | Agentes de IA | Especialización de **Agentes Institucionales** — **no** título de L8 |
 
-### Divergencia pendiente (no auto-corregir)
+### L7 / L8 en L0 (estado actual y trazabilidad histórica)
 
-En `constitution/L0/BOOK.md` (jerarquía final) aún aparecen títulos Versión B:
+**Estado operativo:** en `constitution/L0/BOOK.md` (jerarquía final) constan los títulos canónicos (CDR-002):
 
-- `L7 — REGLAS DE APLICACIÓN Y EXPERIENCIA DE USUARIO`
-- `L8 — REGLAS PARA AGENTES DE INTELIGENCIA ARTIFICIAL`
+- `L7 — REGLAS DE MATERIALIZACIÓN INSTITUCIONAL`
+- `L8 — REGLAS DE LOS AGENTES INSTITUCIONALES`
 
-**Estado:** `DIVERGENCIA PENDIENTE DE RECONCILIACIÓN HUMANA`  
-Tratar como candidato a **MIGRATION FIDELITY CONFLICT** (CDR-001). **No editar L0 automáticamente.**
+**Histórico (no auto-corregir L0):** se documentó una divergencia Versión B (`L7 — REGLAS DE APLICACIÓN Y EXPERIENCIA DE USUARIO`; `L8 — REGLAS PARA AGENTES DE INTELIGENCIA ARTIFICIAL`). Esa formulación **no** aparece en la jerarquía final actual de L0. Si reapareciera, tratar como **MIGRATION FIDELITY CONFLICT** (CDR-001) y **no editar L0 automáticamente.**
 
 ## Versionado (CDR-003) — operativo
 
@@ -87,7 +86,8 @@ Tratar como candidato a **MIGRATION FIDELITY CONFLICT** (CDR-001). **No editar L
 - `standardVersion` actual: **0.1.0** + Draft.  
 - El `1.0.0` en Carta/Readme/Architecture **no** es publicación constitucional oficial.  
 - **No inventar** `VERSION.md`, `CHANGELOG.md`, release o tag si no existen.  
-- **Git local (L3-RELEASE2):** existe `.git`; **sin** remote; **sin** commits; **sin** push; **sin** GitHub. No afirmar `authority: git` como autoridad normativa ni como publicación. La licencia pendiente bloquea el push público (RELEASE4).
+- **Git (estado operativo):** repositorio presente; remote `https://github.com/jpgsChile/web3-trust-native`; rama `master`; snapshot GitHub presente. Git **preserva**; no es autoridad constitucional ni publicación Official/Published. LICENSE = MIT / CODE_ONLY (no cubre Constitución, BOOK, DOCX, CDR, `.cursor` ni documentación histórica).
+- **Histórico (L3-RELEASE2):** `.git` local **sin** remote, **sin** commits, **sin** GitHub; la licencia pendiente bloqueaba el push público (RELEASE4).
 
 ## Conducta del Agent
 

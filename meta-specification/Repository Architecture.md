@@ -8,7 +8,8 @@
 
 **Rol (CDR-001 / CDR-005):** metaspecificación del árbol. Explica; **no** enmienda la Constitución.  
 `.cursor/` es tooling operativo; **no** es autoridad constitucional.  
-**Git local (L3-RELEASE2):** existe `.git`; **sin** remote; **sin** commits; **sin** push. Git preserva; no crea autoridad. La licencia pendiente bloquea el push público.
+**Git (estado operativo):** repositorio presente; remote `https://github.com/jpgsChile/web3-trust-native`; rama `master`; snapshot GitHub presente. LICENSE = MIT / CODE_ONLY. Git preserva; no crea autoridad ni Official/Published.  
+**Histórico (L3-RELEASE2):** `.git` local **sin** remote ni commits; la licencia pendiente bloqueaba el push público.
 
 ---
 
@@ -275,7 +276,7 @@ reference model/         # RESERVADO (vacío en disco; Git no versiona directori
 
 No declararlas como existentes. No crearlas por este documento:
 
-`ontology/`, `knowledge/`, `schemas/`, `profiles/`, `ai/`, `conformance/`, `compiler/`, `guides/`, `examples/`, `whitepapers/`, `prompts/`, `VERSION.md`, `CHANGELOG.md`, `releases/`, remote GitHub.
+`ontology/`, `knowledge/`, `schemas/`, `profiles/`, `ai/`, `conformance/`, `compiler/`, `guides/`, `examples/`, `whitepapers/`, `prompts/`, `VERSION.md`, `CHANGELOG.md`, `releases/`. (Remote GitHub: configurado; no es capa reservada ni autoridad constitucional.)
 
 ---
 
