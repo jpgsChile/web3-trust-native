@@ -1,0 +1,43 @@
+---
+description: Contrato manifest.json por Libro — metaspec machine-readable para WTNC
+globs: constitution/**/manifest.json
+alwaysApply: false
+---
+
+# Contrato de Manifest
+
+## Propósito
+
+Mantener `manifest.json` como contrato estable por Libro para humanos, IA y futuro WTNC.
+
+## Alcance
+
+Todos los `constitution/**/manifest.json`.
+
+## Reglas
+
+1. Campos mínimos: `book`, `title`, `version`, `status`, `levels`, `articles`, `dependsOn`, `source`.
+2. `source` incluye al menos `official` y `historical`. El campo `migration` es opcional según el estado de migración del Libro.
+3. **No** incluir `source.authority`. La autoridad normativa no se declara en el manifest (CDR-001, CDR-004). La preservación por Git/release no se modela como `source.authority` (CDR-003, CDR-004).
+4. `source.official` es la ruta canónica destinada a contener la representación Markdown normativa publicada del Libro. La existencia de esta ruta no implica por sí misma estado OFFICIAL ni autoridad efectiva.
+5. `dependsOn` respeta la jerarquía real (incluye `L3-DA` cuando corresponda).
+6. `articles`/`levels` reflejan la fuente; si desconocido, `0` o nota explícita — no inventar.
+7. JSON válido, UTF-8, indentación estable.
+
+## Restricciones
+
+- No usar manifest para legislar nuevos artículos.
+- No poner prosa normativa larga dentro del JSON.
+- No divergir `title` del README sin señalarlo.
+- No reintroducir `source.authority` ni sustituirlo por valores placeholder (`none`, `git`, `human`, etc.).
+
+## Ejemplos
+
+- ✅ `"migration": "pending-human-review"` en L0 tras borrador.
+- ✅ `source` con solo `official` + `historical` (+ `migration` si aplica).
+- ❌ Añadir `"authority": "git"` (u otro valor) a `source`.
+- ❌ Añadir `"newPrimitive": "TrustScore"` al manifest.
+
+## Comportamiento esperado
+
+El Agent trata el manifest como contrato de metadatos, no como Constitución.

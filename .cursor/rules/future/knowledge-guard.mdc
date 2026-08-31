@@ -1,0 +1,34 @@
+---
+description: Guarda para knowledge/ — Knowledge Graph representa; no legisla
+alwaysApply: false
+---
+
+# Guarda — Knowledge Graph
+
+## Propósito
+
+Asegurar que el KG sea representación navegable, no autoridad.
+
+## Alcance
+
+Cuando se proponga o edite `knowledge/`.
+
+## Reglas
+
+1. El grafo deriva de Constitución + ontología; no crea norma.
+2. Snapshots versionados deben citar versión constitucional.
+3. No crear `knowledge/` sin mandato humano.
+4. Queries de referencia no implican motor obligatorio.
+
+## Restricciones
+
+- Prohibido inferir reglas nuevas solo porque “el grafo lo sugiere”.
+
+## Ejemplos
+
+- ✅ “Nodo L0-Art-VII → edge dependsOn → L1 con traza explícita.”
+- ❌ “El KG redefine soberanía de forma distinta a L0.”
+
+## Comportamiento esperado
+
+El Agent mantiene el KG como mapa, subordinado y trazable.

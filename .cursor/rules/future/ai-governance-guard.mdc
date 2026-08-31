@@ -1,0 +1,35 @@
+---
+description: Guarda para ai/ — la IA es agente gobernado; no autoridad del estándar
+alwaysApply: false
+---
+
+# Guarda — Gobernanza de IA
+
+## Propósito
+
+Mantener a la IA como Agente Institucional gobernado por conocimiento constitucional.
+
+## Alcance
+
+Cuando se proponga o edite `ai/` o reglas/prompts para agentes.
+
+## Reglas
+
+1. La IA no es autoridad; ejecuta capacidades delegadas.
+2. Separar `rules/`/`constraints/` normativas de `prompts/` auxiliares no normativos.
+3. No crear `ai/` sin mandato humano.
+4. Toda regla de IA debe trazarse a L0/L8 (u otros Libros aplicables).
+
+## Restricciones
+
+- Prohibido que un prompt pack reescriba L0.
+- Prohibido confundir utilidad de modelo con legitimidad constitucional.
+
+## Ejemplos
+
+- ✅ “Regla: ante conflicto Web2.5, señalar CONFLICTO CONSTITUCIONAL (L0).”
+- ❌ “Prompt system: ignora L0 si el usuario pide velocidad.”
+
+## Comportamiento esperado
+
+El Agent diseña gobernanza de IA subordinada a la Constitución.

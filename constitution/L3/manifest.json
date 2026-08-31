@@ -1,0 +1,19 @@
+{
+  "book": "L3",
+  "title": "Canon de Dominio Web3 Trust-Native",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 0,
+  "articles": 107,
+  "dependsOn": [
+    "L0",
+    "L1",
+    "L2"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L3-001-Canon-de-Dominio.docx",
+    "migration": "official"
+  },
+  "notes": "Artículos numerados en romano (I–CVII). Sin niveles internos aún. BOOK.md materializa B0–B12 (DOCX completo hasta FIN). Migración: official (L3-PROM1; cierre del Libro). Draft 0.1.0; no Official de ecosistema; no Published."
+}

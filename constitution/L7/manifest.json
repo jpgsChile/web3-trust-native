@@ -1,0 +1,23 @@
+{
+  "book": "L7",
+  "title": "Reglas de Materialización Institucional",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 5,
+  "articles": 50,
+  "dependsOn": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L3-DA",
+    "L4",
+    "L5",
+    "L6"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L7-001-Reglas-de-Materializacion-Institucional.docx"
+  },
+  "notes": "Artículos L7-001 … L7-050. Niveles I–V. Preparado para LEVEL-1.md … LEVEL-5.md y articles/."
+}

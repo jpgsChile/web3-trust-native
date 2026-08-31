@@ -1,0 +1,36 @@
+---
+description: Impide contradicciones entre Libros al editar constitution/
+globs: constitution/**/*
+alwaysApply: false
+---
+
+# No Contradicción entre Libros
+
+## Propósito
+
+Detectar y evitar contradicciones constitucionales al modificar cualquier Libro.
+
+## Alcance
+
+Ediciones bajo `constitution/`.
+
+## Reglas
+
+1. Antes de editar Ln, leer `dependsOn` del manifest y no contradecir niveles superiores.
+2. Si el cambio tensiona L0 u otro superior: detener, citar el artículo, pedir resolución humana.
+3. Los ejemplos dentro de un Libro no pueden anular norma superior.
+4. Divergencias de naming entre Libros se reportan; no se “normalizan” inventando síntesis.
+
+## Restricciones
+
+- Prohibido “resolver” conflictos reescribiendo el nivel superior sin enmienda.
+- Prohibido silenciar contradicciones encontradas.
+
+## Ejemplos
+
+- ✅ “L6 sugiere infraestructura X que choca con L0 Art. III; no aplico.”
+- ❌ “Ajusto L0 para que L6 tenga sentido con cloud propietaria por defecto.”
+
+## Comportamiento esperado
+
+El Agent prioriza integridad jerárquica sobre completitud local del Libro.

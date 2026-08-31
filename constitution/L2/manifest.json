@@ -1,0 +1,18 @@
+{
+  "book": "L2",
+  "title": "Reglas de Protocolo Web3 Trust-Native",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 0,
+  "articles": 100,
+  "dependsOn": [
+    "L0",
+    "L1"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L2-001-Reglas-de-Protocolo.docx",
+    "migration": "human-reviewed"
+  },
+  "notes": "Artículos numerados en romano (I–C). Sin niveles internos aún. BOOK.md materializa B0–B14 (DOCX completo: front-matter histórico, preámbulo, artículos I–C, post-C y FIN). Migración: human-reviewed. Draft 0.1.0; no Official; no Published."
+}

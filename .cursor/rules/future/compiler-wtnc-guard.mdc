@@ -1,0 +1,35 @@
+---
+description: Guarda para compiler/ WTNC — implementa; no sustituye la Constitución
+alwaysApply: false
+---
+
+# Guarda — Compilador WTNC
+
+## Propósito
+
+Reservar el espacio del compilador WTNC sin invertirlo en autoridad.
+
+## Alcance
+
+Cuando se proponga o edite `compiler/` o lenguaje WTNC.
+
+## Reglas
+
+1. WTNC deriva de la Constitución; nunca al revés.
+2. Separar `generators/` (derivación) de `compiler/` (lenguaje/IR).
+3. No crear implementación prematura sin especificación y mandato.
+4. Backends de materialización no redefinen el dominio.
+
+## Restricciones
+
+- Prohibido que el compilador “optimize away” artículos constitucionales.
+- Prohibido acoplar WTNC a una blockchain concreta como dogma.
+
+## Ejemplos
+
+- ✅ Spec de IR que preserva identidad de artículo Lx-NNN.
+- ❌ “Si no compila a EVM, no es constitucional.”
+
+## Comportamiento esperado
+
+El Agent trata WTNC como materialización ejecutable subordinada al canon.

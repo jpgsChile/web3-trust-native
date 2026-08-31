@@ -1,0 +1,33 @@
+---
+description: Guarda para conformance/ — demuestra adhesión; no redefine el estándar
+alwaysApply: false
+---
+
+# Guarda — Conformance
+
+## Propósito
+
+Preparar verificación de conformidad sin convertirla en fuente normativa.
+
+## Alcance
+
+Cuando se proponga o edite `conformance/`.
+
+## Reglas
+
+1. Conformance demuestra adhesión objetiva a la Constitución.
+2. Perfiles no pueden debilitar L0 en silencio.
+3. No crear `conformance/` sin mandato humano.
+
+## Restricciones
+
+- Prohibido sellos “Trust-Native Compatible” sin traza a artículos.
+
+## Ejemplos
+
+- ✅ Suite que verifica presencia de `dependsOn` y no contradicción L0.
+- ❌ Perfil que declara “L0 opcional”.
+
+## Comportamiento esperado
+
+El Agent trata conformance como medición, no como legislación.

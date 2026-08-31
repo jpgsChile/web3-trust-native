@@ -1,0 +1,36 @@
+---
+description: Metaespecificación explica el estándar; no lo enmienda
+globs: meta-specification/**/*,Readme.md,CONSTITUTION.md
+alwaysApply: false
+---
+
+# Metaespecificación
+
+## Propósito
+
+Mantener la frontera entre explicación del estándar y norma constitucional.
+
+## Alcance
+
+`meta-specification/`, `Readme.md` y documentos raíz no-Libro.
+
+## Reglas
+
+1. Metaespecificación **explica**; no crea artículos ni cambia significado de L0–L8.
+2. Si la arquitectura del repo describe carpetas ausentes, etiquetarlas como no materializadas o alinear la descripción — no inventar contenido de esas capas.
+3. Cambios aquí no equivalen a enmienda constitucional.
+4. Referenciar Libros por identificadores canónicos.
+
+## Restricciones
+
+- No introducir norma nueva “de paso” en un README.
+- No contradecir L0 desde la metaspec.
+
+## Ejemplos
+
+- ✅ “Actualizo el diagrama del repo marcando ontology/ como reservada.”
+- ❌ “En Repository Architecture añado un L9 Obligatorio.”
+
+## Comportamiento esperado
+
+El Agent edita metaspec como mapa/explicación, subordinada a la Constitución.

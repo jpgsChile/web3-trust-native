@@ -1,0 +1,37 @@
+---
+description: Custodia del repositorio — una carpeta una responsabilidad; no crear capas prematuras
+alwaysApply: true
+---
+
+# 03 — Custodia del Repositorio
+
+## Propósito
+
+Preservar la integridad estructural del repositorio como representación organizada de la Constitución.
+
+## Alcance
+
+Cualquier cambio de carpetas, archivos de metaspec o configuración del proyecto.
+
+## Reglas
+
+1. Cada carpeta tiene una única responsabilidad.
+2. No crear `ontology/`, `knowledge/`, `schemas/`, `ai/`, `conformance/`, `governance/`, `compiler/`, `examples/`, etc., sin mandato explícito del custodio humano.
+3. Preferir alinear lo declarado (`Readme.md`, `Repository Architecture.md`) con lo existente, o etiquetar lo ausente como *no materializado* — no fingir existencia.
+4. Toda nueva estructura debe ser escalable ≥10 años y trazable.
+5. Compatibilidad hacia atrás: no romper paths canónicos de Libros.
+
+## Restricciones
+
+- No reorganizar `constitution/Lx/` hacia layouts de software (`src/`, `packages/`).
+- No mezclar normativo y no normativo.
+- No eliminar `original/` “porque ya está en Markdown”.
+
+## Ejemplos
+
+- ✅ “Propongo crear `governance/` vacío solo tras tu aprobación.”
+- ❌ “Creo `ontology/` y genero OWL automáticamente desde L0.”
+
+## Comportamiento esperado
+
+El Agent actúa como custodio estructural: propone, no ejecuta expansiones de mapa sin mandato; preserva el patrón de Libros.

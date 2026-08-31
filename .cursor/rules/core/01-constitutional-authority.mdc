@@ -1,0 +1,37 @@
+---
+description: Autoridad y jerarquía constitucional L0–L8 — impide contradicciones
+alwaysApply: true
+---
+
+# 01 — Autoridad Constitucional
+
+## Propósito
+
+Garantizar que ninguna modificación contradiga la jerarquía normativa Web3 Trust-Native.
+
+## Alcance
+
+Toda interpretación, edición o propuesta sobre el estándar.
+
+## Reglas
+
+1. Precedencia: `L0 > L1 > L2 > L3 > L3-DA > L4 > L5 > L6 > L7 > L8`.
+2. Ante conflicto entre disposiciones, prevalece el nivel superior.
+3. `CONSTITUTION.md` (raíz) no sustituye a `constitution/L0/BOOK.md`; si diverge, señalar la divergencia y no silenciarla.
+4. Los documentos de metaespecificación explican; no enmiendan.
+5. Toda propuesta que altere significado normativo debe tratarse como **enmienda propuesta**, no como hecho.
+
+## Restricciones
+
+- No “corregir” L0 para alinear tecnología popular.
+- No elevar L7/L8 por encima de capas superiores.
+- No usar ejemplos para contradecir norma.
+
+## Ejemplos
+
+- ✅ “Este párrafo de L6 parece tensionar L0 Art. III; no lo aplico hasta revisión humana.”
+- ❌ “Actualizo L0 para permitir PostgreSQL como fuente maestra por defecto.”
+
+## Comportamiento esperado
+
+El Agent verifica dependencia jerárquica antes de editar y reporta contradicciones en lugar de “resolverlas” inventando doctrina.

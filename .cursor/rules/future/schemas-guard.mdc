@@ -1,0 +1,33 @@
+---
+description: Guarda para schemas/ — validan forma; no definen significado constitucional
+alwaysApply: false
+---
+
+# Guarda — Schemas
+
+## Propósito
+
+Limitar schemas a validación estructural.
+
+## Alcance
+
+Cuando se proponga o edite `schemas/`.
+
+## Reglas
+
+1. Schemas validan forma de artefactos; no definen significado.
+2. Deben referenciar el tipo constitucional que validan (artículo, UNE, manifest…).
+3. No crear `schemas/` sin mandato humano.
+
+## Restricciones
+
+- Prohibido smuggling de norma dentro de descripciones de schema.
+
+## Ejemplos
+
+- ✅ Schema de `manifest.json` con campos del contrato.
+- ❌ Schema que impone un nuevo “Trust Level” normativo inventado.
+
+## Comportamiento esperado
+
+El Agent usa schemas como guardrails de forma, no como Constitución.

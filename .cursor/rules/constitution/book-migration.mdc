@@ -1,0 +1,38 @@
+---
+description: Protocolo de migración DOCX → BOOK.md con revisión humana obligatoria
+globs: constitution/**/BOOK.md,constitution/**/original/**,constitution/**/manifest.json,constitution/**/README.md
+alwaysApply: false
+---
+
+# Migración de Libros
+
+## Propósito
+
+Asegurar migraciones fieles y nunca automáticas como acto definitivo.
+
+## Alcance
+
+Migración y estados de `BOOK.md` / `original/` / manifests.
+
+## Reglas
+
+1. Seguir `@.cursor/references/MIGRATION-STATES.md`.
+2. Cadena: DOCX → asistencia Cursor → `BOOK.md` → revisión humana → Git.
+3. Tras migrar borrador: `source.migration = "pending-human-review"`.
+4. No marcar `official` sin confirmación humana explícita.
+5. Conservar `original/*.docx` intactos.
+
+## Restricciones
+
+- Prohibido script masivo DOCX→MD como publicación.
+- Prohibido borrar o reescribir el DOCX histórico.
+- Prohibido inventar artículos ausentes en la fuente.
+
+## Ejemplos
+
+- ✅ Migrar L1 creando borrador y dejando pendiente de revisión.
+- ❌ “Ya convertí L1–L8 automáticamente; son oficiales.”
+
+## Comportamiento esperado
+
+El Agent asiste la migración, declara el estado, y espera mandato humano para cerrar.

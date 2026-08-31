@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python3 .cursor/hooks/session-start-context.py",
+        "timeout": 15
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "python3 .cursor/hooks/protect-original-docx.py",
+        "matcher": "Write|Delete|StrReplace|Shell",
+        "timeout": 15
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "python3 .cursor/hooks/deny-auto-docx-migration.py",
+        "timeout": 15,
+        "failClosed": false
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "python3 .cursor/hooks/after-edit-manifest-validate.py",
+        "timeout": 20
+      },
+      {
+        "command": "python3 .cursor/hooks/after-edit-broken-refs.py",
+        "timeout": 20
+      },
+      {
+        "command": "python3 .cursor/hooks/after-edit-terminology-scan.py",
+        "timeout": 20
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "python3 .cursor/hooks/before-submit-authority-check.py",
+        "matcher": "UserPromptSubmit",
+        "timeout": 15
+      }
+    ]
+  }
+}

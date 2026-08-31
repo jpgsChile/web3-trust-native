@@ -1,0 +1,19 @@
+{
+  "book": "L3-DA",
+  "title": "Fundamentos del Lenguaje Formal de Web3 Trust-Native",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 3,
+  "articles": 40,
+  "dependsOn": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L3-DA-001-Fundamentos-del-Lenguaje-Formal.docx"
+  },
+  "notes": "Artículos L3DA-001 … L3DA-040. Niveles I–III detectados en la fuente histórica."
+}

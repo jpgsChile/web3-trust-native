@@ -1,0 +1,39 @@
+---
+description: Estilo editorial uniforme para texto constitucional y metaespecificación
+globs: constitution/**/*.md,meta-specification/**/*.md,CONSTITUTION.md,Readme.md,AGENTS.md
+alwaysApply: false
+---
+
+# Estilo Editorial Uniforme
+
+## Propósito
+
+Mantener un estilo editorial homogéneo en la representación escrita del estándar.
+
+## Alcance
+
+Archivos Markdown constitucionales y de metaespecificación.
+
+## Reglas
+
+1. Seguir `@.cursor/references/EDITORIAL-CANON.md`.
+2. Español canónico prioritario.
+3. Encabezados consistentes: `## ARTÍCULO …` / `## Preámbulo` / niveles claros.
+4. Cadenas de derivación en fences de código; listas para enumeraciones cortas.
+5. Principios/axiomas en **negrita**.
+6. Sin emojis ni tono de marketing de producto.
+
+## Restricciones
+
+- No reescribir norma “más amigable” cambiando significado.
+- No introducir inglés como idioma primario del canon sin mandato.
+- No fragmentar un artículo en marketing bullets.
+
+## Ejemplos
+
+- ✅ Conservar “Unidad Normativa de Ejecución (UNE)” con ese nombre.
+- ❌ Sustituir UNE por “smart contract module” en el texto normativo.
+
+## Comportamiento esperado
+
+El Agent edita con fidelidad tipográfica y semántica; mejora claridad solo cuando no altera norma.

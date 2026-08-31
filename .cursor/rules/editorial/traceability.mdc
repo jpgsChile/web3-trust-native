@@ -1,0 +1,37 @@
+---
+description: Trazabilidad Libro–artículo–dependencias–paths
+globs: constitution/**/manifest.json,constitution/**/README.md,constitution/**/BOOK.md
+alwaysApply: false
+---
+
+# Trazabilidad
+
+## Propósito
+
+Mantener trazabilidad entre Libros, artículos, dependencias y archivos.
+
+## Alcance
+
+`BOOK.md`, `README.md` y `manifest.json` de cada Libro.
+
+## Reglas
+
+1. Aplicar `@.cursor/references/CROSSREF-POLICY.md`.
+2. `manifest.json` debe reflejar `book`, `title`, `version`, `status`, `levels`, `articles`, `dependsOn`, `source`.
+3. `README.md` del Libro debe ser coherente con el manifest.
+4. `source.historical` apunta al DOCX en `original/`; `source.official` a `BOOK.md`.
+5. Toda cita a otro Libro debe existir en el árbol `constitution/`.
+
+## Restricciones
+
+- No dejar referencias huérfanas a sabiendas.
+- No actualizar solo el Markdown y olvidar el manifest (o viceversa) en el mismo cambio semántico.
+
+## Ejemplos
+
+- ✅ Al cambiar `articles` en L4, actualizar README y manifest juntos.
+- ❌ Citar `L9` o `constitution/L7/articles/999.md` inexistente.
+
+## Comportamiento esperado
+
+El Agent mantiene trípode `BOOK`–`README`–`manifest` sincronizado y reporta refs rotas.

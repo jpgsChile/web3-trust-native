@@ -1,0 +1,21 @@
+{
+  "book": "L5",
+  "title": "Seguridad y Privacidad Institucional",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 0,
+  "articles": 15,
+  "dependsOn": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L3-DA",
+    "L4"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L5-001-Seguridad-y-Privacidad-Institucional.docx"
+  },
+  "notes": "Artículos L5-001 … L5-015. Niveles internos pendientes de formalizar en Markdown."
+}

@@ -1,0 +1,17 @@
+{
+  "book": "L1",
+  "title": "Reglas de Arquitectura Web3 Trust-Native",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 0,
+  "articles": 80,
+  "dependsOn": [
+    "L0"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L1-001-Reglas-de-Arquitectura.docx",
+    "migration": "human-reviewed"
+  },
+  "notes": "Artículos numerados en romano (I–LXXX). Sin niveles internos aún."
+}

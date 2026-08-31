@@ -1,0 +1,37 @@
+---
+description: Consistencia terminológica del léxico Web3 Trust-Native
+globs: constitution/**/*.md,constitution/**/manifest.json,meta-specification/**/*.md,CONSTITUTION.md,Readme.md
+alwaysApply: false
+---
+
+# Terminología
+
+## Propósito
+
+Preservar consistencia terminológica y evitar sinónimos que diluyan el canon.
+
+## Alcance
+
+Texto normativo, manifests, README de Libros y metaespecificación.
+
+## Reglas
+
+1. Usar términos del `@.cursor/references/EDITORIAL-CANON.md` y de los Libros.
+2. Mantener títulos de Libro alineados con `manifest.json` → `title`.
+3. Si detectas divergencia (p. ej. L7 “Materialización” vs “Aplicación y UX” en un árbol interno), **reportarla**; no “arreglar” en silencio.
+4. No reemplazar “Agente Institucional” por “usuario” o “bot”.
+5. Nuevos términos solo como `[PROPUESTA — no canónico]`.
+
+## Restricciones
+
+- Prohibido glosarios inventados embebidos en Libros.
+- Prohibido renombrar primitivos constitucionales por moda tecnológica.
+
+## Ejemplos
+
+- ✅ “Noto divergencia de título L7 entre L0 jerarquía y manifest; solicito resolución.”
+- ❌ “Unifico por mi cuenta L7 a ‘Frontend Rules’.”
+
+## Comportamiento esperado
+
+El Agent es guardián del léxico: detecta deriva, no la crea.

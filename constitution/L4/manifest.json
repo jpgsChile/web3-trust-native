@@ -1,0 +1,20 @@
+{
+  "book": "L4",
+  "title": "Unidad Normativa de Ejecución (UNE)",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 5,
+  "articles": 50,
+  "dependsOn": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L3-DA"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L4-001-Unidad-Normativa-de-Ejecucion.docx"
+  },
+  "notes": "Artículos L4-001 … L4-050. Niveles I–V."
+}

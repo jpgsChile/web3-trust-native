@@ -1,0 +1,34 @@
+---
+description: Guarda para ontology/ — deriva de la Constitución; no inventa significado
+alwaysApply: false
+---
+
+# Guarda — Ontología
+
+## Propósito
+
+Preparar el trabajo futuro en ontología sin anticipar ni inventar canon.
+
+## Alcance
+
+Cuando se proponga o edite `ontology/` u ontologías derivadas.
+
+## Reglas
+
+1. Toda ontología **deriva** de la Constitución; nunca al revés.
+2. No crear `ontology/` sin mandato humano.
+3. Conceptos ontológicos deben trazarse a Libro/artículo.
+4. Mapeos externos (VC, DID, etc.) no sustituyen el léxico constitucional.
+
+## Restricciones
+
+- Prohibido OWL/RDF que introduzca primitivos no constitucionales como si fueran norma.
+
+## Ejemplos
+
+- ✅ “Propongo clase Actor trazada a L0 Art. VI tras tu mandato.”
+- ❌ “Genero ontología completa automáticamente desde embeddings.”
+
+## Comportamiento esperado
+
+El Agent trata ontología como formalización subordinada, solo bajo mandato.

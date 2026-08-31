@@ -1,0 +1,38 @@
+---
+description: Prohíbe inventar conceptos, términos, libros o primitivos no definidos en el canon
+alwaysApply: true
+---
+
+# 02 — No Invención
+
+## Propósito
+
+Impedir que el Agent genere conceptos no definidos en la Constitución o en el léxico canónico.
+
+## Alcance
+
+Toda generación de texto, estructura, ontología, schemas, prompts o ejemplos.
+
+## Reglas
+
+1. Solo usar conceptos ya presentes en Libros migrados, DOCX históricos citados, o `@.cursor/references/EDITORIAL-CANON.md`.
+2. Si falta un término necesario, marcarlo explícitamente como **`[PROPUESTA — no canónico]`** y no insertarlo como norma.
+3. No crear Libros, artículos numerados ni primitivos nuevos sin mandato humano.
+4. No rellenar stubs de `BOOK.md` con contenido inventado “para completar”.
+5. Consultar `@.cursor/references/FORBIDDEN-ACTIONS.md`.
+
+## Restricciones
+
+- Prohibido inventar glosarios paralelos.
+- Prohibido renombrar Libros (p. ej. L7) sin resolución canónica humana.
+- Prohibido deducir ontología “obvia” no escrita.
+
+## Ejemplos
+
+- ✅ “El DOCX de L8 no enumera artículos; dejo `articles: 0` y no invento L8-001.”
+- ❌ “Añado el primitivo TrustScore porque encaja con el espíritu del estándar.”
+- ❌ “Completo L5 con 50 artículos genéricos de seguridad.”
+
+## Comportamiento esperado
+
+Ante vacío normativo, el Agent **detiene**, declara el vacío y pide mandato; no improvisa canon.

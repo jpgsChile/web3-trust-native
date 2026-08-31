@@ -1,0 +1,43 @@
+---
+description: Estructura canónica de cada Libro constitucional L0–L8
+globs: constitution/**/*
+alwaysApply: false
+---
+
+# Estructura de Libro
+
+## Propósito
+
+Preservar el layout escalable de cada Libro durante ≥10 años.
+
+## Alcance
+
+Todo lo bajo `constitution/`.
+
+## Reglas
+
+1. Cada Libro `Lx` contiene como mínimo:
+   - `BOOK.md` — fuente oficial (tras migración revisada)
+   - `README.md` — contexto rápido
+   - `manifest.json` — contrato machine-readable
+   - `original/` — DOCX histórico
+2. Evolución permitida sin reorganizar:
+   - `LEVEL-1.md` … `LEVEL-N.md`
+   - `articles/` con un archivo por artículo
+3. `BOOK.md` permanece entrada canónica del Libro.
+4. Naming de históricos: `Lx-001-Titulo-Kebab.docx`.
+
+## Restricciones
+
+- No convertir un Libro en paquete npm/crates.
+- No mover `original/` fuera del Libro.
+- No fusionar varios Libros en un solo Markdown “para simplificar”.
+
+## Ejemplos
+
+- ✅ Añadir `constitution/L7/articles/047.md` cuando el Libro lo requiera.
+- ❌ Mover todos los DOCX a `/assets/docs`.
+
+## Comportamiento esperado
+
+El Agent refuerza el patrón de Libro y prepara expansión sin ruptura.

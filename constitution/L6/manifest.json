@@ -1,0 +1,22 @@
+{
+  "book": "L6",
+  "title": "Reglas de Infraestructura",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 5,
+  "articles": 50,
+  "dependsOn": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L3-DA",
+    "L4",
+    "L5"
+  ],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L6-001-Reglas-de-Infraestructura.docx"
+  },
+  "notes": "Artículos L6-001 … L6-050 (conteo provisional desde fuente histórica). Niveles I–V."
+}

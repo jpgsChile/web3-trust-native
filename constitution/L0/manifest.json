@@ -1,0 +1,15 @@
+{
+  "book": "L0",
+  "title": "Constitución Web3 Trust-Native",
+  "version": "0.1.0",
+  "status": "Draft",
+  "levels": 0,
+  "articles": 57,
+  "dependsOn": [],
+  "source": {
+    "official": "BOOK.md",
+    "historical": "original/L0-001-Constitucion-Web3-Trust-Native.docx",
+    "migration": "human-reviewed"
+  },
+  "notes": "Artículos numerados en romano (I–LVII). Sin niveles internos aún. BOOK.md es borrador migrado desde DOCX."
+}
