@@ -288,24 +288,33 @@ La Constitución permanece.
 
 # Relación con Blockchain
 
-Blockchain constituye únicamente una posible infraestructura de materialización.
+Blockchain constituye únicamente una posible infraestructura de materialización de determinadas implementaciones de Web3 Trust Native.
 
-La Constitución no depende de blockchain.
+La Constitución no depende de blockchain ni de una blockchain específica.
 
-Puede ejecutarse sobre:
+Una implementación puede utilizar, entre otras posibilidades:
 
 - Avalanche;
 - Ethereum;
 - Solana;
 - Stellar;
+- Base;
+- Algorand;
+- Arbitrum;
+- otras redes blockchain públicas o privadas;
 - Hyperledger;
-- Bases de datos tradicionales;
-- Infraestructura híbrida;
-- Sistemas distribuidos;
-- Tecnologías futuras.
+- bases de datos tradicionales;
+- infraestructura híbrida;
+- sistemas distribuidos;
+- tecnologías futuras.
+
+La enumeración anterior es ilustrativa y no exhaustiva.
+
+La selección de infraestructura dependerá de las necesidades y características de cada implementación, incluyendo aspectos como seguridad, descentralización, interoperabilidad, costos, escalabilidad, gobernanza, disponibilidad y requisitos específicos del proyecto.
 
 La infraestructura nunca define a la institución.
 
+Web3 Trust Native define principios, relaciones de confianza, reglas y mecanismos institucionales; la tecnología utilizada para materializarlos constituye una decisión de implementación.
 
 
 # Compatibilidad
