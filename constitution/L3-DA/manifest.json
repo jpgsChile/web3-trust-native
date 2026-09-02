@@ -1,9 +1,9 @@
 {
   "book": "L3-DA",
-  "title": "Fundamentos del Lenguaje Formal de Web3 Trust-Native",
+  "title": "L3-DA — FUNDAMENTOS DEL LENGUAJE FORMAL DE WEB3 TRUST-NATIVE",
   "version": "0.1.0",
   "status": "Draft",
-  "levels": 3,
+  "levels": 4,
   "articles": 40,
   "dependsOn": [
     "L0",
@@ -13,7 +13,8 @@
   ],
   "source": {
     "official": "BOOK.md",
-    "historical": "original/L3-DA-001-Fundamentos-del-Lenguaje-Formal.docx"
+    "historical": "original/L3-DA-001-Fundamentos-del-Lenguaje-Formal.docx",
+    "migration": "pending-human-review"
   },
-  "notes": "Artículos L3DA-001 … L3DA-040. Niveles I–III detectados en la fuente histórica."
+  "notes": "Artículos L3DA-001 … L3DA-040. Niveles I–IV materializados según decisión humana H-LIV-A."
 }
