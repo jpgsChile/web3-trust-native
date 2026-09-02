@@ -2,7 +2,7 @@
   "book": "L5",
   "title": "Seguridad y Privacidad Institucional",
   "version": "0.1.0",
-  "status": "Draft",
+  "status": "Published",
   "levels": 0,
   "articles": 15,
   "dependsOn": [
@@ -15,7 +15,8 @@
   ],
   "source": {
     "official": "BOOK.md",
-    "historical": "original/L5-001-Seguridad-y-Privacidad-Institucional.docx"
+    "historical": "original/L5-001-Seguridad-y-Privacidad-Institucional.docx",
+    "migration": "human-reviewed"
   },
-  "notes": "Artículos L5-001 … L5-015. Niveles internos pendientes de formalizar en Markdown."
+  "notes": "Artículos L5-001 … L5-015. Niveles internos numerados: 0 (Propósito del Nivel único no numerado). Migración human-reviewed. Official=YES. Published=YES. Versión 0.1.0 no incrementada; status JSON Published. Validación PASS 01–03 CLOSED_WITH_OPEN_ITEMS. Open items N-01, N-02, N-03, N-08, N-11, N-12 preservados; N-02 y N-11 REQUIRES_FURTHER_FORMALIZATION. ACTION_STATUS=EXPRESSION_SLOT; AUTHORITY_STATUS=OPEN; PRECONDITION_STATUS=OPEN."
 }
