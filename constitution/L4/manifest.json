@@ -2,9 +2,9 @@
   "book": "L4",
   "title": "Unidad Normativa de Ejecución (UNE)",
   "version": "0.1.0",
-  "status": "Draft",
+  "status": "Published",
   "levels": 5,
-  "articles": 50,
+  "articles": 49,
   "dependsOn": [
     "L0",
     "L1",
@@ -14,7 +14,8 @@
   ],
   "source": {
     "official": "BOOK.md",
-    "historical": "original/L4-001-Unidad-Normativa-de-Ejecucion.docx"
+    "historical": "original/L4-001-Unidad-Normativa-de-Ejecucion.docx",
+    "migration": "human-reviewed"
   },
-  "notes": "Artículos L4-001 … L4-050. Niveles I–V."
+  "notes": "Artículos L4-001 … L4-029 y L4-031 … L4-050 (49). L4-030 ausente. Niveles I–V. Migración human-reviewed. Official (H-2=A). Published (H-3=A). Versión 0.1.0 no incrementada; status JSON Published. Open items N-01 … N-12 preservados. ACTION_STATUS=EXPRESSION_SLOT; AUTHORITY_STATUS=OPEN; PRECONDITION_STATUS=OPEN."
 }
